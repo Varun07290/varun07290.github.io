@@ -31,8 +31,7 @@
     padding: 30px 50px;
     display: flex;
     justify-content: space-between;
-    text-align: right;
-    align-items: right;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
