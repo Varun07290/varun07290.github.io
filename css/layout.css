@@ -53,9 +53,16 @@ body {
 #portfolio-header-text-container {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 20px;
   flex-basis: 50%;
 }
+
+/*#intro-buttons {
+    display: flex;
+
+    gap: 20px;
+    flex-basis: 50%;
+}*/
 
 
 
@@ -87,14 +94,17 @@ body {
 
 .projects-container {
   display: flex;
-  gap: 34px 16px;
-  flex-wrap: wrap;
+  gap: 16px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
 }
 
     /* Project Cards */
 
     .project-card {
       max-width: calc((100% - 32px) / 3);
+      flex: 0 0 calc(33.33% - 32px);
       display: flex;
       flex-direction: column;
       gap: 34px;

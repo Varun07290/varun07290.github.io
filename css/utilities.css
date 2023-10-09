@@ -8,8 +8,8 @@
   }
   
   .footer-icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
   
   a.icon-link {
@@ -68,8 +68,24 @@
     gap: 5px;
     align-items: center;
   }
+  a.button_2 {
+    padding: 8px 16px;
+    border: 3px solid #141414;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
   
   a.button:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+  }
+  a.button_2:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     cursor: pointer;

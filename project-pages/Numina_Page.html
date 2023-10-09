@@ -1,0 +1,169 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/1311.png" />
+     <title>Varun's Portfolio</title>
+    <meta name="description" content="Varun's Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+
+        <span class="nav-title">Varun's Portfolio</span>
+
+        <a class="button" href="mailto:varun.a@nyu.edu">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">Numina Software Engineering Intern</div>
+        <div class="body-text">Worked on the Data Insights Team @ NYC (Spring '23)</div>
+        <image class="project-header-image" src="../assets/numina_logo>
+      </div>
+
+
+      <div id="project-details">
+        <div class="subheader-text">Details</div>
+        <div class="project-details-content">
+          <div class="body-text">Skills: Python | pandas | Geopandas | AWS | TensorFlow | Git   </div>
+          <div class="body-text"> 
+            During my time at Numina, I worked on the Data Science / Data Insights team, where the main duties were to work on the research,
+            testing, and development of Numina's geospatial sensors. While there are basic team structures, since Numina is still
+            a relatively small company, team members often worked between teams and help out where they can.
+             Numina is a start-up based out of NYC, backed by NYU Future Labs that 
+            is working to create real time sensors that track traffic and street data to provide urban planners and city officials with 
+            actionable insights.
+
+          </div>
+          <div class = "body-text"> During this time some of my measurable results were:</div>
+          <div class = "body-text">   
+
+            Built a Python based data ingestion service that continuously pulls an AWS s3 instance to convert a 
+            real time image stream to multiple 1-min video sequences used for prediction and analysis
+            <br>
+            <br> 
+            Developed and employed a computer vision tool to perform entity detection of a real time video stream of traffic 
+            camera footage in NYC, using GeoSpatial Analysis through Python
+            <br>
+            <br> 
+            Compiled and analyzed accuracy statistics of over 500 video sequences, providing actionable 
+            recommendations to highlight key issues in testing and facilitate informed decision-making.
+            <br>
+            <br> 
+            Created 2 detailed reports regarding the company for NYU and internal documentation
+            <br>
+            1) Detailed the team members, internal team structure, product and market
+            <br>
+            2) Detailed potential competitors, technology, and overall goals
+          
+          </div>
+
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/code.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/sketchbook.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/camera.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!--Footer Page Across Everything -->
+      <a class="icon-link" target="_blank" href="https://linkedin.com/in/varunaravapalli">
+        <image src="./assets/linkedin_logo.png" class="footer-icon"/>
+      </a>
+
+      <a class="icon-link" target="_blank" href="https://github.com/Varun07290">
+        <image src="./assets/github_icon.png" class="footer-icon"/>
+      </a>
+      
+      <a class="icon-link" href="mailto:varun.a@nyu.edu">
+        <image src="./assets/email_icon.png" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
